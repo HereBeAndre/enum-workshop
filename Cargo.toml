@@ -1,0 +1,9 @@
+[package]
+name = "enum-workshop"
+version = "0.1.0"
+authors = ["Andrea Tota"]
+description = "Workshop repo on benefits and drawbacks of enums in TypeScript"
+
+[bin]
+name="name"
+path="src/rust/main.rs"
