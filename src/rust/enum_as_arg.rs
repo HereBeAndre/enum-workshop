@@ -10,7 +10,8 @@ fn print_color(color: Color) {
         Color::Red => println!("red"),
         Color::Green => println!("green"),
         Color::Yellow => println!("yellow"),
-    }}
+    }
+}
 
 fn main () {
     let red = Color::Red;
