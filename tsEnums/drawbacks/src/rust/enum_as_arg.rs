@@ -20,4 +20,4 @@ fn main () {
     print_color(red);
 }
 
-// rustc src/rust/enum_as_arg.rs
+// rustc tsEnums/drawbacks/src/rust/enum_as_arg.rs

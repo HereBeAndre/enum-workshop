@@ -1,6 +1,6 @@
 # enum-workshop
 
-Brief presentation about enums in TypeSctipt. What's an enum? What's its behavior? Benefits and drawbacks?
+Brief presentation about enums in TypeSctipt. What's an enum? How does it behave? Benefits and drawbacks?
 
 ## Resources
 
@@ -13,3 +13,12 @@ Brief presentation about enums in TypeSctipt. What's an enum? What's its behavio
 ## Notable aspects which are not covered
 
 - [const enums](https://www.typescriptlang.org/docs/handbook/enums.html#const-enums)
+
+## Agenda
+
+`tsEnums`
+
+1. `intro`
+2. `benefits`
+3. `drawbacks`
+4. `differentApproach`
