@@ -1,12 +1,13 @@
 /*
 Enums are one of the few features TypeScript has which is not a type-level extension of JavaScript.
 
-Enums allow to define a set of named constants.
-Using enums can make it easier to document intent, or create a set of distinct cases.
+Enums are constants based data structures that store a set of named constants.
+In TypeScript, enums are a feature that injects runtime JavaScript objects to an application 
+in addition to providing usual type-level extensions.
 TypeScript provides numeric, string-based and heterogeneous enums:
 */
 
-// numeric
+// numeric | all enum members are of type number
 enum DirectionNum {
   Up = 1,
   Down,
@@ -15,7 +16,7 @@ enum DirectionNum {
 }
 // auto-incrementing and can leave off initializers.
 
-// string-based
+// string-based | all enum members are of type string
 enum DirectionStr {
   Up = 'Up',
   Down = 'Down',
@@ -27,7 +28,7 @@ enum DirectionStr {
 
 // heterogeneous
 enum DirectionHeterogeneus {
-  Up = 0,
+  Up,
   Down = 'Down',
 }
 // enums allow this, even though it's not advised that you do so.
